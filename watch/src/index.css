@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Anglecia Pro Display";
+  src: url("./assets/fonts/Anglecia-Pro-Display.otf") format("opentype");
+  font-weight: 400;
+  font-size: 32px;
+  font-style: normal;
+}
+h2 {
+  font-family: "Anglecia Pro Display";
+  src: url("./assets/fonts/Anglecia-Pro-Display.otf") format("opentype");
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+h3 {
+  font-family: "Inter";
+  font-size: 20px;
+}
+h4 {
+  font-family: "Inter";
+  font-size: 16px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
